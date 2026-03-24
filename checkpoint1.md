@@ -124,3 +124,10 @@ idade: Int
 ```
 
 Adicionamos um parâmetro do tipo Int obrigatório.
+
+Para finalizar, devemos ajustar na chamada de redirecionamento na MenuScreen para passarmos o parâmetro:
+
+*MenuScreen.kt*
+```kt
+onClick = { navController.navigate("perfil/Matheus Amaral/23") }
+```
